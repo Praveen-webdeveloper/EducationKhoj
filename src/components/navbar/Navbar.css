@@ -1,0 +1,206 @@
+@import url(https://unpkg.com/@webpixels/css@1.0/dist/index.css);
+.mainNav,
+.navbar {
+  background-color: #f1f1f1 !important;
+  font-family: "Poppins";
+}
+
+.navbar-light .navbar-nav .nav-link {
+  color: rgba(0, 0, 0, 0.5);
+}
+
+.navbar-light .navbar-nav .nav-link:focus,
+.navbar-light .navbar-nav .nav-link:hover {
+  color: rgba(0, 0, 0, 0.7);
+}
+
+.navbar-light .navbar-nav .nav-link.disabled {
+  color: rgba(0, 0, 0, 0.3);
+}
+
+.navbar-light .navbar-nav .open > .nav-link,
+.navbar-light .navbar-nav .active > .nav-link,
+.navbar-light .navbar-nav .nav-link.open,
+.navbar-light .navbar-nav .nav-link.active {
+  color: rgba(0, 0, 0, 0.9);
+}
+
+.navbar-light .navbar-toggler {
+  border-color: rgba(0, 0, 0, 0.1);
+}
+
+.navbar-light .navbar-toggler-icon {
+  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(0, 0, 0, 0.5)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
+}
+
+.navbar-light .navbar-text {
+  color: rgba(0, 0, 0, 0.5);
+}
+
+.sr-only {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  padding: 0;
+  margin: -1px;
+  overflow: hidden;
+  clip: rect(0, 0, 0, 0);
+  border: 0;
+}
+
+.sr-only-focusable:active,
+.sr-only-focusable:focus {
+  position: static;
+  width: auto;
+  height: auto;
+  margin: 0;
+  overflow: visible;
+  clip: auto;
+}
+
+.nav-tabs .nav-item {
+  margin-bottom: -1px;
+}
+.nav-tabs .nav-link.active,
+.nav-tabs .nav-item.show .nav-link {
+  color: #464a4c;
+  background-color: #fff;
+  border-color: #ddd #ddd #fff;
+}
+
+.nav-pills .nav-link.active,
+.nav-pills .nav-item.show .nav-link {
+  color: #fff;
+  cursor: default;
+  background-color: #0275d8;
+}
+
+.nav-fill .nav-item {
+  -webkit-box-flex: 1;
+  -webkit-flex: 1 1 auto;
+  -ms-flex: 1 1 auto;
+  flex: 1 1 auto;
+  text-align: center;
+}
+.nav-justified .nav-item {
+  -webkit-box-flex: 1;
+  -webkit-flex: 1 1 100%;
+  -ms-flex: 1 1 100%;
+  flex: 1 1 100%;
+  text-align: center;
+}
+
+.navHeader {
+  background: #3b3582;
+  color: #fff;  
+ }
+
+.marquee {
+  height: 25px;
+  width: 420px;
+  overflow: hidden;
+  position: relative;
+}
+
+.marquee div {
+  display: block;
+  width: 200%;
+  height: 30px;
+  position: absolute;
+  overflow: hidden;
+  animation: marquee 5s linear infinite forwards;
+}
+
+.marquee span {
+  float: left;
+  width: 50%;
+}
+
+@keyframes marquee {
+  0% { left: 0; }
+  100% { left: -100%; }
+}
+
+/* skdajflksadjfl */
+a,
+a:hover {
+  color: #ed5c16;
+}
+
+.treding_btn {
+  background: #ed5c16;
+  color: #fff;
+  margin: 0 10px;
+  display: inline-block;
+  padding: 15px 40px;
+}
+.treding_btn:hover,
+.treding_btn:focus {
+  background: #ed5c16;
+  color: #fff;
+  margin: 0 10px;
+  display: inline-block;
+  padding: 15px 40px;
+}
+.treding_triangle_position {
+  clip-path: polygon(0 1%, 100% 0, 0 100%, 0% 100%);
+  height: 20px;
+  width: 20px;
+  background: #ed5c16;
+  left: 10px;
+}
+
+.fh5co_logo_width {
+  width: 130px;
+}
+.fh5co_mediya_right {
+  text-align: right;
+}
+
+.navbar-light .navbar-nav .nav-link {
+  color: #222 !important;
+  padding-top: 12px !important;
+  padding-bottom: 15px !important;
+  padding-left: 20px !important;
+  padding-right: 20px !important;
+  margin: 0 10px !important;
+  transition: all 0.5s ease;
+  position: relative !important;
+  clip-path: polygon(100% 0, 100% 85%, 14% 85%, 0 100%, 0% 60%, 0 0);
+}
+
+.navbar-light .navbar-nav .open > .nav-link,
+.navbar-light .navbar-nav .active > .nav-link,
+.navbar-light .navbar-nav .nav-link.open,
+.navbar-light .navbar-nav .nav-link.active,
+.login {
+  color: #fff !important;
+  padding-top: 12px !important;
+  padding-bottom: 15px !important;
+  padding-left: 20px !important;
+  padding-right: 20px !important;
+  margin: 0 40px !important;
+  transition: all 0.5s ease;
+  background: #ed5c16 !important;
+  border-radius: 5px;
+  clip-path: polygon(100% 0, 100% 85%, 14% 85%, 0 100%, 0% 60%, 0 0);
+}
+
+.navbar-light .navbar-nav .nav-link:focus,
+.navbar-light .navbar-nav .nav-link:hover {
+  background: #ed5c16 !important;
+  color: #fff !important;
+  padding-top: 12px !important;
+  padding-bottom: 15px !important;
+  padding-left: 20px !important;
+  padding-right: 20px !important;
+  margin: 0 20px;
+  position: relative;
+}
+
+.fh5co_padding_menu {
+  padding: 20px 0;
+}
+.mobile_logo_width {
+  display: none;
+}

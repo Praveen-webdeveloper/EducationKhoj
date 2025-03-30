@@ -1,0 +1,97 @@
+.jobCardContainer{
+  border: 1px solid #3b3582 !important;
+}
+
+.job-card{
+    padding: 30px;
+    color: #3b3582 !important;
+}
+
+.job-details {
+  position: relativ e;
+  font-family: "Helvetica";
+  display: flex;
+}
+
+.company-logo-img {
+  background-color: #fff;
+  border: 1px solid #e3e3e3;
+  height: 60px !important;
+  width: 60px !important;
+  box-sizing: border-box;
+  }
+
+.company-logo-img img {
+    max-height: 60px !important;
+    max-width: 60px !important;  
+}
+
+.job-content{
+    padding: 0px 10px;
+}
+
+.job-title {
+  font-size: 16px;
+  font-weight: 500;
+  margin-top: 5px;
+  padding: 0 5px;
+}
+
+
+.company-name {
+    font-size: 14px;
+    color: #777;
+    margin-bottom: 5px;
+    padding: 0 5px;
+}
+
+.job-discription{
+    font-size: 14px;
+    color: #777;
+    margin: 15px 0;
+}
+
+.skills-container {
+  padding-top: 10px;
+}
+
+.skill {
+  display: inline-block;
+  color: rgb(59, 53, 130);
+  border-radius: 2px;
+  background-color: rgba(59, 53, 130, 0.05);
+  border: 1px solid rgba(59, 53, 130, 0.15);
+  padding: 5px 8px;
+  font-size: 12px;
+}
+
+.btn-container {
+  display: flex;
+}
+
+.btn-container button {
+  display: block;
+  width: 100%;
+  cursor: pointer;
+  border: 0;
+  border-radius: 4px;
+  font-size: 14px;
+  padding: 6px 12px;
+  z-index: 2;
+  margin: 0 5px;
+}
+.moreDetails {
+  background-color: #fff;
+  border: 1px solid #ed5c16 !important;
+  color: #ed5c16;
+}
+
+.moreDetails:hover{
+  border: 1px solid #3b3582 !important;
+  color: #3b3582;
+}
+
+
+.jobContainerFooter{
+  border-top: 1px solid #3b3582 !important;
+}

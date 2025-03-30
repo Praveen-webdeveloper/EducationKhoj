@@ -1,0 +1,33 @@
+.LatestNews{
+    margin: 5rem auto !important;
+}
+
+.titleline {
+    border: 1px solid #e5e5e5;
+    border-width: 1px 0;
+    flex-grow: 1;
+    height: 4px;
+    transition: all ease 0.31s;
+    margin: 10px;
+}
+
+.titledot {
+    width: 9px;
+    height: 9px;
+    border-radius: 50%;
+    background-color: #2962ff;
+    margin-left: 15px;
+    display: inline-block;
+    transition: all ease 0.31s;
+}
+
+.headingBtn{
+    background-color: #2962ff;
+    border-top: 1px solid #fff0;
+    border-bottom: 1px solid #fff0;
+    color: #ffffff !important;
+}
+
+.BigNewsCard .card-img-overlay{
+    background: linear-gradient(transparent, rgba(25, 25, 112, 0.546)) !important;
+}

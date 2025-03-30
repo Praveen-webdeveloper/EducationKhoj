@@ -1,0 +1,29 @@
+.eventHeaderImg {
+    background:  linear-gradient(to top, #0006 63%, #0006 6%);
+    background-size: cover;
+    height: 160px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 0 0 56px 56px;
+    padding: 10px;
+}
+
+
+.eventButton {
+    animation: bubble 1s infinite alternate;
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    background: rgb(255, 0, 0);
+    border: none;
+    color: white;
+    outline: none;
+    cursor: pointer;
+}
+
+@keyframes bubble {
+    to {
+        box-shadow: 0 0 0 15px #9517175c;
+   }
+}

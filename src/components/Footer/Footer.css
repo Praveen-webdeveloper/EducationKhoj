@@ -1,0 +1,117 @@
+
+.footer {
+  background: #f1f1f1 ;
+  color: #fff;
+  /* margin-top: 70px; */
+  padding: 70px 0;
+}
+.footer_logo {
+  width: 140px;
+}
+.footer_main_title {
+  color: #ed5c16;
+  font-size: 20px;
+}
+.footer_sub_about {
+  color: grey;
+  font-size: 14px;
+}
+
+
+.footer_icons {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 40px;
+  width: 40px;
+  font-size: 18px;
+  border: 1px solid #222 !important;
+  cursor: pointer;
+  border-radius: 50%;
+  transition: all .5s ease;
+  margin-right: 10px;
+  color: #777 !important;
+}
+.footer_icons:hover,
+.footer_icons:focus {
+background-color: #ed5c16 !important;
+  color: white !important;
+  border: 1px solid #ed5c16 !important;
+  cursor: pointer;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  -ms-border-radius: 50%;
+  border-radius: 50%;
+}
+
+.footer_menu {
+  list-style: none;
+  padding: 0;
+}
+.footer_menu li > a {
+  color: grey !important;
+  padding: 8px 0 !important;
+  display: -webkit-box;
+  -moz-transition: all 0.5s ease;
+  -o-transition: all 0.5s ease;
+  -webkit-transition: all 0.5s ease;
+  -ms-transition: all 0.5s ease;
+  transition: all 0.5s ease;
+}
+.footer_menu li > a:hover,
+.footer_menu li > a:focus {
+  color: #ed5c16 !important;
+  padding: 8px 0 !important;
+  display: -webkit-box;
+  margin-left: 5px;
+}
+.footer_post {
+  color: grey;
+  display: -webkit-box;
+}
+.footer_makes_sub_font {
+  font-size: 12px;
+  color: grey;
+}
+.footer_img_post_6 {
+  height: 50px;
+  width: 94px;
+  overflow: hidden;
+  margin: 10px 10px;
+  display: inline-block;
+}
+.footer_img_post_6 > img {
+  width: 94px;
+  height: 50px;
+}
+
+.subscribe_icon {
+  background: #ed5c16;
+  padding: 10px;
+  border-radius: 5px;
+  color: #fff;
+  border-bottom: 2px solid midnightblue !important;
+}
+
+.footer_textbox {
+  background: none !important;
+  border: none;
+  border-bottom: 2px solid midnightblue !important;
+  box-shadow: none !important;
+  color: midnightblue !important;
+}
+.footer_textbox:focus {
+  /* border-color: #f5bc04; */
+  box-shadow: none !important;
+}
+.footer_subcribe {
+  background: #ed5c16;
+  padding: 10px;
+  border-bottom: 2px solid midnightblue !important;
+  border-radius: 5px;
+  color: #fff !important;
+ }
+.downFooter {
+  background: midnightblue !important;
+  color: #fff !important;
+}
